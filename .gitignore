@@ -1,0 +1,21 @@
+# Artefactos de build ESP-IDF (regenerables con `idf.py build`)
+Firm_HorneritoV1/build/
+Firm_HorneritoV1/sdkconfig.old
+Firm_HorneritoV1/sdkconfig.ci
+
+# Componentes descargados por IDF Component Manager (se recuperan de
+# Firm_HorneritoV1/dependencies.lock al compilar; ~590 MB)
+Firm_HorneritoV1/managed_components/
+
+# Capturas de serie: contienen SSID, IPs y datos del equipo local
+tools/logs/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
