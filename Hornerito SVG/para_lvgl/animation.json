@@ -1,0 +1,145 @@
+{
+  "character": "Hornerito Suave; artwork based on the supplied large transparent PNG reference.",
+  "animation": "blink",
+  "frames": [
+    "hornerito_normal.png",
+    "hornerito_parpadeo.png",
+    "hornerito_normal_2.png"
+  ],
+  "sequence": [
+    0,
+    1,
+    2
+  ],
+  "suggested_frame_duration_ms": [
+    110,
+    90,
+    110
+  ],
+  "format": "RGBA PNG, transparent background; independent frames, same square canvas within each frame.",
+  "note": "Los PNG originales de cada secuencia se conservan sin retoque manual sobre la ilustración aplanada. GIF *_suave.gif son solo vistas previas con fundidos; el firmware no se modificó.",
+  "animations": {
+    "blink": {
+      "frames": [
+        "hornerito_normal.png",
+        "hornerito_parpadeo.png",
+        "hornerito_normal_2.png"
+      ],
+      "duration_ms": [
+        120,
+        100,
+        850
+      ],
+      "loop": "repeat"
+    },
+    "saludo_sutil": {
+      "frames": [
+        "hornerito_saludo_1.png",
+        "hornerito_saludo_2.png",
+        "hornerito_saludo_3.png",
+        "hornerito_saludo_4.png"
+      ],
+      "duration_ms": [
+        260,
+        240,
+        240,
+        650
+      ]
+    },
+    "pensando": {
+      "frames": [
+        "hornerito_pensando_1.png",
+        "hornerito_pensando_2.png",
+        "hornerito_pensando_3.png",
+        "hornerito_pensando_4.png"
+      ],
+      "duration_ms": [
+        300,
+        400,
+        1200,
+        650
+      ]
+    },
+    "sueno": {
+      "frames": [
+        "hornerito_sueno_1.png",
+        "hornerito_sueno_2.png",
+        "hornerito_sueno_3.png",
+        "hornerito_sueno_4.png"
+      ],
+      "duration_ms": [
+        300,
+        450,
+        1500,
+        700
+      ]
+    }
+  },
+  "preview_note": "Los GIF *_suave.gif son vistas previas con fundidos entre PNG. Para LVGL se conservan PNG RGBA y la secuencia/tiempos del manifiesto.",
+  "canvas_px": [
+    480,
+    480
+  ],
+  "planned_expressions": [
+    {
+      "id": 1,
+      "name": "Normal",
+      "status": "listo"
+    },
+    {
+      "id": 2,
+      "name": "Feliz",
+      "status": "pendiente"
+    },
+    {
+      "id": 3,
+      "name": "Saludo",
+      "status": "listo"
+    },
+    {
+      "id": 4,
+      "name": "Sorprendido",
+      "status": "pendiente"
+    },
+    {
+      "id": 5,
+      "name": "Atento",
+      "status": "pendiente"
+    },
+    {
+      "id": 6,
+      "name": "Pensando",
+      "status": "listo"
+    },
+    {
+      "id": 7,
+      "name": "Durmiendo",
+      "status": "listo"
+    },
+    {
+      "id": 8,
+      "name": "Bostezando",
+      "status": "pendiente"
+    },
+    {
+      "id": 9,
+      "name": "Asustado",
+      "status": "pendiente"
+    },
+    {
+      "id": 10,
+      "name": "Concentrado",
+      "status": "pendiente"
+    },
+    {
+      "id": 11,
+      "name": "Muerto de risa",
+      "status": "pendiente"
+    },
+    {
+      "id": 12,
+      "name": "Desconfiado",
+      "status": "pendiente"
+    }
+  ]
+}
